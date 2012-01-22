@@ -1,0 +1,31 @@
+\documentclass{report}
+\usepackage{tabularx}
+\usepackage[width=50mm,height=74mm,top=5mm,left=0mm,right=0mm,bottom=0mm]{geometry}
+\usepackage{wasysym}
+\usepackage[cross]{crop}
+\renewcommand{\familydefault}{\sfdefault}
+
+\begin{document}
+\setlength{\pdfpagewidth}{50mm}
+\setlength{\pdfpageheight}{70mm}
+
+%\begin{tabular}[llll]
+\large
+\begin{tabularx}{\textwidth}{llll}
+\multicolumn{4}{c}{\Large Stimmzettel} \\
+\multicolumn{4}{c}{\Large \anumber} \\
+\\
+1 & \Square \hspace{1mm} Ja & 10 & \Square\\
+2 & \Square \hspace{1mm} Nein & 11 & \Square\\
+3 & \Square & 12 & \Square \\
+4 & \Square & 13 & \Square \\
+5 & \Square & 14 & \Square \\
+6 & \Square & 15 & \Square \\
+7 & \Square & 16 & \Square \\
+8 & \Square & 17 & \Square \\
+9 & \Square & 18 & \Square \\
+
+\end{tabularx}
+%\end{tabular}
+
+\end{document}

@@ -1,0 +1,59 @@
+\documentclass{report}
+\usepackage{tabularx}
+\usepackage[paperwidth=74mm,paperheight=210mm,top=10mm,left=10mm,right=10mm,bottom=10mm]{geometry}
+\usepackage{wasysym}
+\usepackage[cross]{crop}
+\usepackage{graphicx}
+\renewcommand{\familydefault}{\sfdefault}
+
+\begin{document}
+\thispagestyle{empty}
+
+%\begin{tabular}[llll]
+\Huge
+\center
+Piratenpartei
+
+\vspace{5mm}
+
+\includegraphics[scale=0.5]{logo-pur.pdf}
+
+\Large
+\vspace{5mm}
+
+Kreisverband\\
+Marburg-Biedenkopf\\
+Mitgliederversammlung\\
+21. Januar 2012
+
+\vspace{5mm}
+
+\large
+
+Stimmkarte
+
+\flushleft
+
+Name oder Mitgliedsnummer:
+
+\vspace{10mm}
+
+\center
+\begin{tabularx}{\textwidth}{XXXX}
+\multicolumn{4}{c}{Teilnahme an Abstimmungen} \\
+%\multicolumn{4}{c}{\Large \anumber} \\
+\\
+1 & \Square & 10 & \Square \\
+2 & \Square & 11 & \Square \\
+3 & \Square & 12 & \Square \\
+4 & \Square & 13 & \Square \\
+5 & \Square & 14 & \Square \\
+6 & \Square & 15 & \Square \\
+7 & \Square & 16 & \Square \\
+8 & \Square & 17 & \Square \\
+9 & \Square & 18 & \Square \\
+
+\end{tabularx}
+%\end{tabular}
+
+\end{document}
