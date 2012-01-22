@@ -1,0 +1,25 @@
+
+Dieses Programm entstand am 20.1.2012 in etwa einer Stunde, um
+Wahlunterlagen für den Piratenpartei-Kreisparteitag Marburg-Biedenkopf
+2012 zu erzeugen. Diese sind in ihrem Layout denen in der
+Piratenpartei verbreiteten angelehnt.
+
+Es besteht im wesentlichen aus zwei Latex-Dateien: 
+
+wahlzettel.latex   Ein Wahlzettel mit einer variablen 
+                   Nummer
+stimmkarte.latex   Eine Stimmkarte mit Piratenlogo
+
+Ein Skript namens "wahlzettel.sh" erzeugt 18 verschiedene
+Wahlzettel und setzt 4x4 davon mit Schnittmarken auf eine A4. Die
+entstehenden Dateien werden im Unterverzeichnis "wahlzettel" (das
+vielleicht vorher angelegt werden muss) abgespeichert.
+
+Ein anderes Skript namens "stimmkarten.sh" setzt 4x1 Stimmkarten auf
+eine A4.
+
+Mit wenigen Handgriffen sollte man dieses Skript auf andere
+Papierformate umstellen können.
+
+Die Zahl der Abstimmungskästchen ist nicht variabel, es sind immer
+18. Ebenso sind 18 Abstimmungen vorgesehen.
