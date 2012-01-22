@@ -23,3 +23,10 @@ Papierformate umstellen können.
 
 Die Zahl der Abstimmungskästchen ist nicht variabel, es sind immer
 18. Ebenso sind 18 Abstimmungen vorgesehen.
+
+Abhängigkeiten:
+
+latex (pdflatex)
+bash
+pdfjam
+coreutils
